@@ -8,7 +8,6 @@ import ResidentList from './components/ResidentList';
 function App() {
   const [currentLocation, setCurrentLocation] = useState(null)
   const [dimensionInfo, setDimensionInfo] = useState('')
-  const [loader, setloader] = useState(true)
   
   const searchDimensionByName = () => {
     const url2 = `https://rickandmortyapi.com/api/location/${dimensionInfo}`

@@ -8,7 +8,7 @@ const LocationInfo = ({currentLocation, setDimensionInfo, searchDimensionByName}
   return (
     <section className="text-center text-white">
         <div className='flex flex-col sm:flex-row justify-around items-center'>
-            <img src="/public/images/name.png" alt="" />
+            <img src="/images/name.png" alt="" />
             <LocationForm setDimensionInfo={setDimensionInfo} searchDimensionByName={searchDimensionByName}/>
         </div>
         <div className='bg-[#fffd87] rounded-2xl border-[5px] border-[#893446] max-w-[1024px] m-auto'>
